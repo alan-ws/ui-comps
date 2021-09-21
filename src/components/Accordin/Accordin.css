@@ -1,0 +1,38 @@
+.accordin-group {
+    width: 100%;
+    display: flex;
+}
+
+.horizontal {
+    flex-direction: column;
+}
+
+.verticle {
+    flex-direction: row;
+}
+
+.accordin-item {
+    width: 80%;
+    margin: 0 auto;
+    background-color: blueviolet;
+}
+
+.accordin-title {
+    user-select: none;
+}
+
+.accordin-title:hover {
+    cursor: pointer;
+}
+
+.open {
+    display: flex;
+}
+
+.closed {
+    display: none;
+}
+
+.disabled {
+    background-color: darkgray;
+}
